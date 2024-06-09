@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f3258;
+    transition: width 0.5s ease-in-out;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    width: 95vw;
+    z-index: 1;
+    right: 0;
+}
+
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignment{
+    display: flex;
+    background-color: #3f3258;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 2%;
+}
+
+.icon{
+    height: 50px;
+    box-shadow: -5px 5px 4px 0px black;
+    border: 2px solid #3f3258;
+    border-radius: 35% 55% 35% 64%;
+    position: relative;
+    left: 4vh;
+}
+
+.icon:hover{
+    height: 50px;
+    box-shadow: 19px 20px 16px 3px black;
+    border: 2px solid #3f3258;
+    border-radius:55% 35% 55% 25%;
+}
+
+li {
+    width: 10vw;
+    
+}
+
+.Info-navbar:hover{
+    background-color:#308eb2;
+    border: 2px solid white;
+    border-radius:55% 35% 65% 55% ;
+    font-size:large;
+}
+
+/* .search{
+    border: #3f3258 solid 2px;
+    border-radius: 2px;
+
+} */
+
+.finder{
+    background-color: #308eb2;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 35% 15% 55% 64%;
+    color: #3f3258;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4vh;
+    padding: 0 2vw;
+    /* right: 0; */
+}
+
+.finder::placeholder{
+    color: rgb(73, 24, 111);
+    background-color: #7153a84c;
+}
+
+.search > button{
+    width: 3vw;
+    border: 2px solid black;
+    height: 4.5vh;
+    border-radius: 35% 55% 55% 64%;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

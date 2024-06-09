@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  color:#3f3258;
+  background-color: aqua;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* .home-container {
+  position: absolute;
+  top: 7.7vh;
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+} */
+#main {
+  position: relative;
+  overflow: hidden;
+}
+#page1 {
+  height: 95vh;
+  width: 95vw;
+
+  /* background: url(./background-images/bolero-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+}
+/* #page1::before {
+  height: 100vh;
+  width: 100vw;
+  background: url(./background-images/bolero-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(35%);
+  background-position: center;
+  background-attachment: fixed;
+} */
+/* #image-content{
+  position: relative;
+  z-index: 1;
+} */
+.box-car-1 {
+  position: fixed;
+  right: 15vw;
+  top: 33%;
+  height: 40vh;
+  width: 35vw;
+  background-color: #3f3258;
+  border: 2px solid white;
+  border-radius: 35% 55% 35% 64%;
+}
+.box-2-car-1-queue {
+  position: fixed;
+  right: 45vw;
+  top: 67%;
+  height: 18vh;
+  width: 18vw;
+  background-color: #3f3258;
+  border: 2px solid white;
+  border-radius: 35% 55% 35% 64%;
+}
+.box-3-car-1-next-to-queue {
+  position: fixed;
+  right: 64vw;
+  top: 75%;
+  height: 14vh;
+  width: 16vw;
+  background-color: #3f3258;
+  border: 2px solid white;
+  border-radius: 35% 55% 35% 64%;
+}
+.box-4-car-1-next-to-next-queue {
+  position: fixed;
+  right: 81vw;
+  top: 77%;
+  height: 15vh;
+  width: 14vw;
+  background-color: #3f3258;
+  border: 2px solid white;
+  border-radius: 35% 55% 35% 64%;
+}
+.box-4-gone-car-1 {
+  position: fixed;
+  right: 0vw;
+  top: 18%;
+  height: 18vh;
+  width: 19vw;
+  background-color: #3f3258;
+  border: 2px solid white;
+  border-radius: 35% 55% 35% 64%;
+}
+#main-car {
+  vertical-align: middle;
+  overflow: unset;
+  width: -webkit-fill-available;
+}
+#main-car-2 {
+  vertical-align: middle;
+  overflow: hidden;
+  width: -webkit-fill-available;
+}
+#main-car-3 {
+  vertical-align: middle;
+  overflow: hidden;
+  width: -webkit-fill-available;
+}
+#main-car-4 {
+  vertical-align: middle;
+  overflow: hidden;
+  width: -webkit-fill-available;
+}
+#main-car-5 {
+  vertical-align: middle;
+  overflow: hidden;
+  width: -webkit-fill-available;
+}
+.car-name{
+  background-image: url(./background-images/bolero-2.png);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 7em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  height: 13vh;
+  width: 32VW;
+  box-shadow: black;
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  font-style: normal;
+  font-optical-sizing: auto;
+  text-shadow:-8px -8px 2px #3f3258;
+}
+.previous-btn{
+ 
+  position: fixed;
+  top: 53%;
+  left: 48%;
+}
+.next-btn{
+  position: fixed;
+  top: 53%;
+  left: 85%;
+}
+.icons-control{
+  height: 40px;
+}
+#car-name{
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  font-family:"Roboto Slab", serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.5em;
+}
