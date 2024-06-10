@@ -27,7 +27,7 @@ function App() {
       <div className="App">
         <Sidebar width={sidebarWidth} onToggleWidth={handleWidthChange}/>
        <Navbar  width={navbarWidth} />
-        <Home width={homeWidth}/>
+        <Home width={homeWidth} />
         {
           // showLeftslider && 
         }
