@@ -11,12 +11,7 @@ body {
   height: 100%;
   width: 100%;
 }
-/* .home-container {
-  position: absolute;
-  top: 7.7vh;
-  overflow: hidden;
-  transition: width 0.5s ease-in-out;
-} */
+
 #main {
   position: relative;
   overflow: hidden;
@@ -24,27 +19,7 @@ body {
 #page1 {
   height: 95vh;
   width: 95vw;
-
-  /* background: url(./background-images/bolero-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
 }
-/* #page1::before {
-  height: 100vh;
-  width: 100vw;
-  background: url(./background-images/bolero-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(35%);
-  background-position: center;
-  background-attachment: fixed;
-} */
-/* #image-content{
-  position: relative;
-  z-index: 1;
-} */
 .box-car-1 {
   position: fixed;
   right: 15vw;
@@ -95,30 +70,23 @@ body {
   border: 2px solid white;
   border-radius: 35% 55% 35% 64%;
 }
-#main-car {
-  vertical-align: middle;
-  overflow: unset;
-  width: -webkit-fill-available;
+
+.box-car-1,
+.box-2-car-1-queue,
+.box-3-car-1-next-to-queue,
+.box-4-car-1-next-to-next-queue,
+.box-4-gone-car-1 {
+  position: fixed;
+  background-size: cover;
+  background-position: center;
 }
-#main-car-2 {
-  vertical-align: middle;
-  overflow: hidden;
-  width: -webkit-fill-available;
-}
-#main-car-3 {
-  vertical-align: middle;
-  overflow: hidden;
-  width: -webkit-fill-available;
-}
-#main-car-4 {
-  vertical-align: middle;
-  overflow: hidden;
-  width: -webkit-fill-available;
-}
-#main-car-5 {
-  vertical-align: middle;
-  overflow: hidden;
-  width: -webkit-fill-available;
+.main-car {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
 }
 .car-name{
   background-image: url(./background-images/bolero-2.png);
@@ -141,17 +109,28 @@ body {
 }
 .previous-btn{
  
-  position: fixed;
-  top: 53%;
+  /* position: fixed;
+  top: 53%; */
   left: 48%;
 }
 .next-btn{
-  position: fixed;
-  top: 53%;
+  /* position: fixed;
+  top: 53%; */
   left: 85%;
 }
+
+.previous-btn,
+.next-btn {
+  position: fixed; 
+  top: 50%; 
+  transform: translateY(-50%); 
+
+}
+
 .icons-control{
   height: 40px;
+  cursor:pointer;
+
 }
 #car-name{
   position: fixed;
